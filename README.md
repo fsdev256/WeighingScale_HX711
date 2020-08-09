@@ -1,5 +1,5 @@
 # WeighingScale_HX711
-A simple Arduino prototype, Weighing Scale (in gram) with HX711 ADC module and 1KG load cell bar. Self-calibration will be done if weight is not 0g without tare items.
+A simple Arduino prototype, Weighing Scale (in gram) using HX711 ADC module, 1KG load cell bar and SH1106 OLED. Self-calibration will be done if weight is not 0g without tare items.
 
 ## Steps
 1. Powered up without tare items
@@ -11,6 +11,7 @@ A simple Arduino prototype, Weighing Scale (in gram) with HX711 ADC module and 1
 - ESP-01s
 - HX711 ADC
 - Load cell bar 1KG
+- SH1106 OLED I2C
 - 4x 1.5V Alkaline Battery
 - LM1117 Voltage Regulator
 - 2x Capacitor (10 uF and 35uF)
@@ -25,4 +26,4 @@ A simple Arduino prototype, Weighing Scale (in gram) with HX711 ADC module and 1
 3. Items must be removed during self-calibration 
 
 ## License
-The repositories is under [MIT license](https://github.com/fsdev256/WeighingScale_HX711/blob/master/LICENSE).
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/fsdev256/WeighingScale_HX711/blob/master/LICENSE) file for details
